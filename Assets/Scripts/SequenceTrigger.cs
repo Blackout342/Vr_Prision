@@ -7,6 +7,18 @@ public class SequenceTrigger : MonoBehaviour
     public List<int> correctSequence = new List<int> { 1, 2, 3, 4 };
     private List<int> currentInput = new List<int>();
 
+    [Header("Recompensa de la Caja Fuerte")]
+    // Arrastra aquí la tarjeta/llave que pusiste dentro de la caja
+    public GameObject rewardKeyObject; 
+
+    void Start()
+    {
+        if (rewardKeyObject != null)
+        {
+            rewardKeyObject.SetActive(false);
+        }
+    }
+
     public void PressButton(int buttonID)
     {
         currentInput.Add(buttonID);
@@ -34,15 +46,21 @@ public class SequenceTrigger : MonoBehaviour
         if (isCorrect)
         {
             Debug.Log("Secuencia correcta");
+            
+            if (rewardKeyObject != null)
+            {
+                rewardKeyObject.SetActive(true);
+            }
+
             if (doorController != null)
             {
-                //SFXManager.Instance.PlaySound3D(SFXManager.Instance.doorOpenClip, transform.position);
+                // SFXManager.Instance.PlaySound3D(SFXManager.Instance.doorOpenClip, transform.position);
                 doorController.Open();
             }
         }
         else
         {
-            //SFXManager.Instance.PlaySound3D(SFXManager.Instance.wrongKeyClip, transform.position);
+            // SFXManager.Instance.PlaySound3D(SFXManager.Instance.wrongKeyClip, transform.position);
             Debug.Log("Secuencia incorrecta");
             currentInput.Clear();
         }
