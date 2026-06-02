@@ -4193,6 +4193,98 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -629719859055844128, guid: e600e2623476bb04b9f237891a01873f, type: 3}
+--- !u!1001 &843668582
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1752695368}
+    m_Modifications:
+    - target: {fileID: 7141894632777291476, guid: 0f78f7d19c3474141ae909e2ad3d8664, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.74
+      objectReference: {fileID: 0}
+    - target: {fileID: 7141894632777291476, guid: 0f78f7d19c3474141ae909e2ad3d8664, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7141894632777291476, guid: 0f78f7d19c3474141ae909e2ad3d8664, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -5.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7141894632777291476, guid: 0f78f7d19c3474141ae909e2ad3d8664, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7141894632777291476, guid: 0f78f7d19c3474141ae909e2ad3d8664, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7141894632777291476, guid: 0f78f7d19c3474141ae909e2ad3d8664, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7141894632777291476, guid: 0f78f7d19c3474141ae909e2ad3d8664, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7141894632777291476, guid: 0f78f7d19c3474141ae909e2ad3d8664, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7141894632777291476, guid: 0f78f7d19c3474141ae909e2ad3d8664, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7141894632777291476, guid: 0f78f7d19c3474141ae909e2ad3d8664, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7518420897632734318, guid: 0f78f7d19c3474141ae909e2ad3d8664, type: 3}
+      propertyPath: m_Name
+      value: X-Corner (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 7518420897632734318, guid: 0f78f7d19c3474141ae909e2ad3d8664, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 843668585}
+  m_SourcePrefab: {fileID: 100100000, guid: 0f78f7d19c3474141ae909e2ad3d8664, type: 3}
+--- !u!4 &843668583 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7141894632777291476, guid: 0f78f7d19c3474141ae909e2ad3d8664, type: 3}
+  m_PrefabInstance: {fileID: 843668582}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &843668584 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7518420897632734318, guid: 0f78f7d19c3474141ae909e2ad3d8664, type: 3}
+  m_PrefabInstance: {fileID: 843668582}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &843668585
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 843668584}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 8665926305893839415, guid: 40355e812cba14b488806fba5360d8bc, type: 3}
 --- !u!1001 &847405429
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9546,6 +9638,7 @@ Transform:
   - {fileID: 1527240552}
   - {fileID: 1875073101}
   - {fileID: 1412726666}
+  - {fileID: 843668583}
   - {fileID: 1107005895}
   - {fileID: 485020845}
   m_Father: {fileID: 930999521}
