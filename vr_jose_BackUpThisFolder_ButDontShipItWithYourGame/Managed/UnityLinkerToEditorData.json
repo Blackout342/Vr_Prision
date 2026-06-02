@@ -84,7 +84,9 @@
           },
           {
             "name": "AudioClip",
-            "scenes": [],
+            "scenes": [
+              "Assets/Scenes/VR_Game.unity"
+            ],
             "dependencyType": 0,
             "icon": null
           },
@@ -104,8 +106,10 @@
           },
           {
             "name": "AudioResource",
-            "scenes": [],
-            "dependencyType": 1,
+            "scenes": [
+              "Assets/Scenes/VR_Game.unity"
+            ],
+            "dependencyType": 0,
             "icon": null
           },
           {
@@ -957,28 +961,32 @@
         "dependencies": [
           {
             "name": "BoxCollider",
-            "scenes": [],
+            "scenes": [
+              "Assets/Scenes/VR_Game.unity"
+            ],
             "dependencyType": 0,
             "icon": null
           },
           {
             "name": "CapsuleCollider",
-            "scenes": [],
+            "scenes": [
+              "Assets/Scenes/VR_Game.unity"
+            ],
             "dependencyType": 0,
             "icon": null
           },
           {
             "name": "CharacterController",
-            "scenes": [],
+            "scenes": [
+              "Assets/Scenes/VR_Game.unity"
+            ],
             "dependencyType": 0,
             "icon": null
           },
           {
             "name": "Collider",
-            "scenes": [
-              "Assets/Scenes/VR_Game.unity"
-            ],
-            "dependencyType": 0,
+            "scenes": [],
+            "dependencyType": 1,
             "icon": null
           },
           {
@@ -997,7 +1005,9 @@
           },
           {
             "name": "Rigidbody",
-            "scenes": [],
+            "scenes": [
+              "Assets/Scenes/VR_Game.unity"
+            ],
             "dependencyType": 0,
             "icon": null
           },
@@ -1841,19 +1851,25 @@
           },
           {
             "name": "VFXRenderer",
-            "scenes": [],
+            "scenes": [
+              "Assets/Scenes/VR_Game.unity"
+            ],
             "dependencyType": 0,
             "icon": null
           },
           {
             "name": "VisualEffect",
-            "scenes": [],
+            "scenes": [
+              "Assets/Scenes/VR_Game.unity"
+            ],
             "dependencyType": 0,
             "icon": null
           },
           {
             "name": "VisualEffectAsset",
-            "scenes": [],
+            "scenes": [
+              "Assets/Scenes/VR_Game.unity"
+            ],
             "dependencyType": 0,
             "icon": null
           },
