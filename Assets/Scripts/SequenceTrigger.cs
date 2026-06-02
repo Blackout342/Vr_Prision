@@ -23,6 +23,7 @@ public class SequenceTrigger : MonoBehaviour
     {
         currentInput.Add(buttonID);
         Debug.Log($"Boton: {buttonID}. ({currentInput.Count}/{correctSequence.Count})");
+        SFXManager.Instance.PlaySound3D(SFXManager.Instance.buttonPressClip, transform.position, 0.6f);
 
         if (currentInput.Count == correctSequence.Count)
         {
@@ -54,13 +55,13 @@ public class SequenceTrigger : MonoBehaviour
 
             if (doorController != null)
             {
-                // SFXManager.Instance.PlaySound3D(SFXManager.Instance.doorOpenClip, transform.position);
+                SFXManager.Instance.PlaySound3D(SFXManager.Instance.keySuccessClip, transform.position);
                 doorController.Open();
             }
         }
         else
         {
-            // SFXManager.Instance.PlaySound3D(SFXManager.Instance.wrongKeyClip, transform.position);
+            SFXManager.Instance.PlaySound3D(SFXManager.Instance.wrongKeyClip, transform.position);
             Debug.Log("Secuencia incorrecta");
             currentInput.Clear();
         }
