@@ -125,6 +125,7 @@ GameObject:
   - component: {fileID: 3575364881633863252}
   - component: {fileID: 4002339865363749134}
   - component: {fileID: 4161620892360232589}
+  - component: {fileID: 5432175366583586231}
   m_Layer: 0
   m_Name: Button1
   m_TagString: Untagged
@@ -240,6 +241,33 @@ MonoBehaviour:
   sequenceSystem: {fileID: 4181131878455713425}
   buttonID: 1
   resetDelay: 0.5
+--- !u!54 &5432175366583586231
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 716934441182136201}
+  serializedVersion: 5
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &898670683947726124
 GameObject:
   m_ObjectHideFlags: 0
@@ -384,7 +412,6 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1974211029648659731}
-  - {fileID: 1268801154372768280}
   m_Father: {fileID: 729903407461112445}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &6290621853805053154
@@ -416,6 +443,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SequenceTrigger
   doorController: {fileID: 6290621853805053154}
   correctSequence: 01000000020000000300000004000000
+  rewardKeyObject: {fileID: 0}
 --- !u!1 &2994974486732882458
 GameObject:
   m_ObjectHideFlags: 0
@@ -595,6 +623,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2866156320680086874}
+  - {fileID: 1268801154372768280}
   m_Father: {fileID: 4650472016154168431}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &6473579495844908005
@@ -846,7 +875,7 @@ Transform:
   m_GameObject: {fileID: 7328369159007026762}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.4730007, y: 0.6000001, z: 0.358}
+  m_LocalPosition: {x: 0.905001, y: 0.545, z: 0.35799986}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -854,7 +883,7 @@ Transform:
   - {fileID: 301532769403431386}
   - {fileID: 5460889145642728795}
   - {fileID: 4856607310231560283}
-  m_Father: {fileID: 4650472016154168431}
+  m_Father: {fileID: 1974211029648659731}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &7839368570931695824
 GameObject:
@@ -869,6 +898,7 @@ GameObject:
   - component: {fileID: 4749376659037269430}
   - component: {fileID: 202218825866364572}
   - component: {fileID: 7687548137700833203}
+  - component: {fileID: 2219182951195583780}
   m_Layer: 0
   m_Name: Button2
   m_TagString: Untagged
@@ -984,6 +1014,33 @@ MonoBehaviour:
   sequenceSystem: {fileID: 4181131878455713425}
   buttonID: 2
   resetDelay: 0.5
+--- !u!54 &2219182951195583780
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7839368570931695824}
+  serializedVersion: 5
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &8360908655804207013
 GameObject:
   m_ObjectHideFlags: 0
@@ -997,6 +1054,7 @@ GameObject:
   - component: {fileID: 4522251232006937071}
   - component: {fileID: 1723941145362585789}
   - component: {fileID: 6050167046043958959}
+  - component: {fileID: 3825282239635830990}
   m_Layer: 0
   m_Name: Button3
   m_TagString: Untagged
@@ -1112,6 +1170,33 @@ MonoBehaviour:
   sequenceSystem: {fileID: 4181131878455713425}
   buttonID: 3
   resetDelay: 0.5
+--- !u!54 &3825282239635830990
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8360908655804207013}
+  serializedVersion: 5
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &8361948376621112837
 GameObject:
   m_ObjectHideFlags: 0
@@ -1237,6 +1322,7 @@ GameObject:
   - component: {fileID: 5744700399462747911}
   - component: {fileID: 2934158402151563083}
   - component: {fileID: 6877251004337366535}
+  - component: {fileID: 9030142216166816907}
   m_Layer: 0
   m_Name: Button4
   m_TagString: Untagged
@@ -1352,3 +1438,30 @@ MonoBehaviour:
   sequenceSystem: {fileID: 4181131878455713425}
   buttonID: 4
   resetDelay: 0.5
+--- !u!54 &9030142216166816907
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8790395926941379767}
+  serializedVersion: 5
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
