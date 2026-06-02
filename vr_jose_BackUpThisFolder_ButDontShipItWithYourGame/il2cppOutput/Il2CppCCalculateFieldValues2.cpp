@@ -33055,6 +33055,7 @@ struct BaseDoor_t1795F03E67074392A6983975163E2CACCB07A256  : public MonoBehaviou
 	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___doorMesh;
 	float ___openAngle;
 	float ___openSpeed;
+	bool ___playSound;
 	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___closedRotation;
 	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___openRotation;
 	bool ___isOpening;
@@ -33112,10 +33113,10 @@ struct BloomPostProcessPass_t6965891C7DD5601D21569BB5BC3483CBD1D731CD  : public 
 };
 struct Button_t08E85812946542C2FD1F37BA7C97825101832DC8  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
 {
-	SequenceTrigger_t4DD89D30AF724BA51265408BC2EED32DF63A6EB8* ___sequenceSystem;
 	int32_t ___buttonID;
-	bool ___canPress;
 	float ___resetDelay;
+	SequenceTrigger_t4DD89D30AF724BA51265408BC2EED32DF63A6EB8* ___sequenceSystem;
+	bool ___canPress;
 };
 struct CameraController_t7E0AA7DC0B482A31CC3D60F6032912FE8B581DA8  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
 {
@@ -33574,6 +33575,7 @@ struct SFXManager_tAF63690A185E44F2801326FED0FD58F790B89C4E  : public MonoBehavi
 	AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* ___buttonPressClip;
 	AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* ___doorOpenClip;
 	AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* ___globalAudioSource;
+	AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* ___bgmAudioSource;
 };
 struct ScalingSetupPostProcessPass_t8759DA922D73D2314617FB294314DD4E7D1FAD2D  : public PostProcessPass_t146B366124B6BB9597B9E9299DA4391FDE159F5C
 {
@@ -33586,6 +33588,7 @@ struct SequenceTrigger_t4DD89D30AF724BA51265408BC2EED32DF63A6EB8  : public MonoB
 	BaseDoor_t1795F03E67074392A6983975163E2CACCB07A256* ___doorController;
 	List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* ___correctSequence;
 	List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* ___currentInput;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___rewardKeyObject;
 };
 struct ShaderPropAnimator_t768B23A41FC3CFB5B3C2501C2411B4DEBA296906  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
 {
@@ -45307,12 +45310,12 @@ IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable8840[4] =
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable8841[3] = 
 {
 	static_cast<int32_t>(offsetof(AnimateHandOnInput_tA9C05EB723ADD1EBE533839D67AD3A3A82F68156, ___pinchAnimationAction)),static_cast<int32_t>(offsetof(AnimateHandOnInput_tA9C05EB723ADD1EBE533839D67AD3A3A82F68156, ___gripAnimationAction)),static_cast<int32_t>(offsetof(AnimateHandOnInput_tA9C05EB723ADD1EBE533839D67AD3A3A82F68156, ___handAnimator)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable8842[6] = 
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable8842[7] = 
 {
-	static_cast<int32_t>(offsetof(BaseDoor_t1795F03E67074392A6983975163E2CACCB07A256, ___doorMesh)),static_cast<int32_t>(offsetof(BaseDoor_t1795F03E67074392A6983975163E2CACCB07A256, ___openAngle)),static_cast<int32_t>(offsetof(BaseDoor_t1795F03E67074392A6983975163E2CACCB07A256, ___openSpeed)),static_cast<int32_t>(offsetof(BaseDoor_t1795F03E67074392A6983975163E2CACCB07A256, ___closedRotation)),static_cast<int32_t>(offsetof(BaseDoor_t1795F03E67074392A6983975163E2CACCB07A256, ___openRotation)),static_cast<int32_t>(offsetof(BaseDoor_t1795F03E67074392A6983975163E2CACCB07A256, ___isOpening)),};
+	static_cast<int32_t>(offsetof(BaseDoor_t1795F03E67074392A6983975163E2CACCB07A256, ___doorMesh)),static_cast<int32_t>(offsetof(BaseDoor_t1795F03E67074392A6983975163E2CACCB07A256, ___openAngle)),static_cast<int32_t>(offsetof(BaseDoor_t1795F03E67074392A6983975163E2CACCB07A256, ___openSpeed)),static_cast<int32_t>(offsetof(BaseDoor_t1795F03E67074392A6983975163E2CACCB07A256, ___playSound)),static_cast<int32_t>(offsetof(BaseDoor_t1795F03E67074392A6983975163E2CACCB07A256, ___closedRotation)),static_cast<int32_t>(offsetof(BaseDoor_t1795F03E67074392A6983975163E2CACCB07A256, ___openRotation)),static_cast<int32_t>(offsetof(BaseDoor_t1795F03E67074392A6983975163E2CACCB07A256, ___isOpening)),};
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable8843[4] = 
 {
-	static_cast<int32_t>(offsetof(Button_t08E85812946542C2FD1F37BA7C97825101832DC8, ___sequenceSystem)),static_cast<int32_t>(offsetof(Button_t08E85812946542C2FD1F37BA7C97825101832DC8, ___buttonID)),static_cast<int32_t>(offsetof(Button_t08E85812946542C2FD1F37BA7C97825101832DC8, ___canPress)),static_cast<int32_t>(offsetof(Button_t08E85812946542C2FD1F37BA7C97825101832DC8, ___resetDelay)),};
+	static_cast<int32_t>(offsetof(Button_t08E85812946542C2FD1F37BA7C97825101832DC8, ___buttonID)),static_cast<int32_t>(offsetof(Button_t08E85812946542C2FD1F37BA7C97825101832DC8, ___resetDelay)),static_cast<int32_t>(offsetof(Button_t08E85812946542C2FD1F37BA7C97825101832DC8, ___sequenceSystem)),static_cast<int32_t>(offsetof(Button_t08E85812946542C2FD1F37BA7C97825101832DC8, ___canPress)),};
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable8844[1] = 
 {
 	static_cast<int32_t>(offsetof(KeyItem_t7C43F122D20092AEBDEF6969CA5BC680988D01EE, ___keyID)),};
@@ -45322,12 +45325,12 @@ IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable8845[2] =
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable8846[1] = 
 {
 	static_cast<int32_t>(offsetof(MouseTester_tC540F7FD6532235E764FBCE0975BAE61F1467EF3, ___mainCamera)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable8847[6] = 
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable8847[7] = 
 {
-	static_cast<int32_t>(offsetof(SFXManager_tAF63690A185E44F2801326FED0FD58F790B89C4E_StaticFields, ___Instance)),static_cast<int32_t>(offsetof(SFXManager_tAF63690A185E44F2801326FED0FD58F790B89C4E, ___keySuccessClip)),static_cast<int32_t>(offsetof(SFXManager_tAF63690A185E44F2801326FED0FD58F790B89C4E, ___wrongKeyClip)),static_cast<int32_t>(offsetof(SFXManager_tAF63690A185E44F2801326FED0FD58F790B89C4E, ___buttonPressClip)),static_cast<int32_t>(offsetof(SFXManager_tAF63690A185E44F2801326FED0FD58F790B89C4E, ___doorOpenClip)),static_cast<int32_t>(offsetof(SFXManager_tAF63690A185E44F2801326FED0FD58F790B89C4E, ___globalAudioSource)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable8848[3] = 
+	static_cast<int32_t>(offsetof(SFXManager_tAF63690A185E44F2801326FED0FD58F790B89C4E_StaticFields, ___Instance)),static_cast<int32_t>(offsetof(SFXManager_tAF63690A185E44F2801326FED0FD58F790B89C4E, ___keySuccessClip)),static_cast<int32_t>(offsetof(SFXManager_tAF63690A185E44F2801326FED0FD58F790B89C4E, ___wrongKeyClip)),static_cast<int32_t>(offsetof(SFXManager_tAF63690A185E44F2801326FED0FD58F790B89C4E, ___buttonPressClip)),static_cast<int32_t>(offsetof(SFXManager_tAF63690A185E44F2801326FED0FD58F790B89C4E, ___doorOpenClip)),static_cast<int32_t>(offsetof(SFXManager_tAF63690A185E44F2801326FED0FD58F790B89C4E, ___globalAudioSource)),static_cast<int32_t>(offsetof(SFXManager_tAF63690A185E44F2801326FED0FD58F790B89C4E, ___bgmAudioSource)),};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable8848[4] = 
 {
-	static_cast<int32_t>(offsetof(SequenceTrigger_t4DD89D30AF724BA51265408BC2EED32DF63A6EB8, ___doorController)),static_cast<int32_t>(offsetof(SequenceTrigger_t4DD89D30AF724BA51265408BC2EED32DF63A6EB8, ___correctSequence)),static_cast<int32_t>(offsetof(SequenceTrigger_t4DD89D30AF724BA51265408BC2EED32DF63A6EB8, ___currentInput)),};
+	static_cast<int32_t>(offsetof(SequenceTrigger_t4DD89D30AF724BA51265408BC2EED32DF63A6EB8, ___doorController)),static_cast<int32_t>(offsetof(SequenceTrigger_t4DD89D30AF724BA51265408BC2EED32DF63A6EB8, ___correctSequence)),static_cast<int32_t>(offsetof(SequenceTrigger_t4DD89D30AF724BA51265408BC2EED32DF63A6EB8, ___currentInput)),static_cast<int32_t>(offsetof(SequenceTrigger_t4DD89D30AF724BA51265408BC2EED32DF63A6EB8, ___rewardKeyObject)),};
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable8849[3] = 
 {
 	static_cast<int32_t>(offsetof(ChatController_t21BE953E1D5ADF0BA9F3B03C205203CADDC64C15, ___ChatInputField)),static_cast<int32_t>(offsetof(ChatController_t21BE953E1D5ADF0BA9F3B03C205203CADDC64C15, ___ChatDisplayOutput)),static_cast<int32_t>(offsetof(ChatController_t21BE953E1D5ADF0BA9F3B03C205203CADDC64C15, ___ChatScrollbar)),};

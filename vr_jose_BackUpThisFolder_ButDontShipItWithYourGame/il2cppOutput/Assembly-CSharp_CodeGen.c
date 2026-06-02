@@ -27,9 +27,11 @@ extern void MouseTester_Start_m38BB5A2DC842A960791014A73ED1902863D2D9DF (void);
 extern void MouseTester_Update_m92148D62556A1D6F95FF38C033A9DF52899C6AB8 (void);
 extern void MouseTester__ctor_m76FDB0A6D1894E4B8EBF1CA6D5D063F1755D73AD (void);
 extern void SFXManager_Awake_m5A18A23E994FC28BC19A86C1E99B09D671E0879D (void);
-extern void SFXManager_PlaySound2D_m9137798209856F7D672A65B89BF1701B345BA86F (void);
 extern void SFXManager_PlaySound3D_m817509584935A18963F58213F48AF9F8AB22F076 (void);
+extern void SFXManager_PlayBackgroundMusic_m4ACF64C78BAAEF72815DBB2985F864325A1CBF23 (void);
+extern void SFXManager_StopBackgroundMusic_mAF9C6133A783BE255D6619FC23AD07E19B35A999 (void);
 extern void SFXManager__ctor_m033D29A7E11F09A60ED2C387E8A3380392FDCA27 (void);
+extern void SequenceTrigger_Start_mA5F3724103E439C52CD14636D120688B20C8E9B8 (void);
 extern void SequenceTrigger_PressButton_mD6938ADEF90EB5F40C01A82E01BE4EE4A8DA09C4 (void);
 extern void SequenceTrigger_CheckSequence_m219380289210FEB5935BD74DFADBC9A83CDCB7F9 (void);
 extern void SequenceTrigger__ctor_m487F61BDF06DBFC8542C385C5FF79857F87D50D4 (void);
@@ -302,7 +304,7 @@ extern void U3CWarpTextU3Ed__8_MoveNext_mCE7A826C5E4854C2C509C77BD18F5A9B6D691B0
 extern void U3CWarpTextU3Ed__8_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mD80368E9B7E259311C03E406B75161ED6F7618E3 (void);
 extern void U3CWarpTextU3Ed__8_System_Collections_IEnumerator_Reset_m07746C332D2D8CE5DEA59873C26F2FAD4B369B42 (void);
 extern void U3CWarpTextU3Ed__8_System_Collections_IEnumerator_get_Current_m71D7F84D9DEF63BEC6B44866515DDCF35B142A19 (void);
-static Il2CppMethodPointer s_methodPointers[295] = 
+static Il2CppMethodPointer s_methodPointers[297] = 
 {
 	MovementController_Update_mB72AA3FFD41BE01F39C18D80DA2C7D5D8D69F3E0,
 	MovementController__ctor_mBA50A088FED8B4A0F7727D69277B39BB0D385C26,
@@ -324,9 +326,11 @@ static Il2CppMethodPointer s_methodPointers[295] =
 	MouseTester_Update_m92148D62556A1D6F95FF38C033A9DF52899C6AB8,
 	MouseTester__ctor_m76FDB0A6D1894E4B8EBF1CA6D5D063F1755D73AD,
 	SFXManager_Awake_m5A18A23E994FC28BC19A86C1E99B09D671E0879D,
-	SFXManager_PlaySound2D_m9137798209856F7D672A65B89BF1701B345BA86F,
 	SFXManager_PlaySound3D_m817509584935A18963F58213F48AF9F8AB22F076,
+	SFXManager_PlayBackgroundMusic_m4ACF64C78BAAEF72815DBB2985F864325A1CBF23,
+	SFXManager_StopBackgroundMusic_mAF9C6133A783BE255D6619FC23AD07E19B35A999,
 	SFXManager__ctor_m033D29A7E11F09A60ED2C387E8A3380392FDCA27,
+	SequenceTrigger_Start_mA5F3724103E439C52CD14636D120688B20C8E9B8,
 	SequenceTrigger_PressButton_mD6938ADEF90EB5F40C01A82E01BE4EE4A8DA09C4,
 	SequenceTrigger_CheckSequence_m219380289210FEB5935BD74DFADBC9A83CDCB7F9,
 	SequenceTrigger__ctor_m487F61BDF06DBFC8542C385C5FF79857F87D50D4,
@@ -600,7 +604,7 @@ static Il2CppMethodPointer s_methodPointers[295] =
 	U3CWarpTextU3Ed__8_System_Collections_IEnumerator_Reset_m07746C332D2D8CE5DEA59873C26F2FAD4B369B42,
 	U3CWarpTextU3Ed__8_System_Collections_IEnumerator_get_Current_m71D7F84D9DEF63BEC6B44866515DDCF35B142A19,
 };
-static const int32_t s_InvokerIndices[295] = 
+static const int32_t s_InvokerIndices[297] = 
 {
 	14905,
 	14905,
@@ -622,8 +626,10 @@ static const int32_t s_InvokerIndices[295] =
 	14905,
 	14905,
 	14905,
-	5702,
 	1819,
+	5702,
+	14905,
+	14905,
 	14905,
 	11228,
 	14905,
@@ -902,7 +908,7 @@ IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	295,
+	297,
 	s_methodPointers,
 	0,
 	NULL,
