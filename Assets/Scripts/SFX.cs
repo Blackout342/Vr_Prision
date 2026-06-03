@@ -5,7 +5,7 @@ public class SFXManager : MonoBehaviour
     public static SFXManager Instance;
     public AudioClip keySuccessClip, wrongKeyClip, buttonPressClip, doorOpenClip, backgroundMusicClip, clue, congrats;
     public float globalMusicVolume = 70f;
-    public AudioSource globalAudioSource;
+    public AudioSource globalAudioSource, customAudioSource;
     private AudioSource bgmAudioSource;
 
     void Awake()
@@ -21,27 +21,41 @@ public class SFXManager : MonoBehaviour
         PlayBackgroundMusic(backgroundMusicClip, globalMusicVolume);
     }
 
-    public void PlaySound3D(AudioClip clip, Vector3 position, float volume = 100f, float maxDistance = 15f)
+    public void PlaySound3D(AudioClip clip, Vector3 position, float volume = 100f, float maxDistance = 15f, bool useCustomSource = false)
     {
         if (clip == null) return;
 
         float unityVolume = Mathf.Clamp(volume / 100f, 0f, 1f);
 
-        GameObject tempAudioObj = new GameObject("TempAudio3D");
-        tempAudioObj.transform.position = position;
+        if (useCustomSource && customAudioSource != null)
+        {
+            customAudioSource.transform.position = position;
+            customAudioSource.clip = clip;
+            customAudioSource.volume = unityVolume;
+            customAudioSource.spatialBlend = 1.0f;
+            customAudioSource.rolloffMode = AudioRolloffMode.Logarithmic;
+            customAudioSource.minDistance = 1f;
+            customAudioSource.maxDistance = maxDistance;
+            customAudioSource.spatialize = true;
+            customAudioSource.Play();
+        }
+        else
+        {
+            GameObject tempAudioObj = new GameObject("TempAudio3D");
+            tempAudioObj.transform.position = position;
 
-        AudioSource audioSource = tempAudioObj.AddComponent<AudioSource>();
-        
-        audioSource.clip = clip;
-        audioSource.volume = unityVolume;
-        audioSource.spatialBlend = 1.0f;
-        audioSource.rolloffMode = AudioRolloffMode.Logarithmic;
-        audioSource.minDistance = 1f;
-        audioSource.maxDistance = maxDistance;
-        audioSource.spatialize = true; 
-        audioSource.Play();
+            AudioSource audioSource = tempAudioObj.AddComponent<AudioSource>();
+            audioSource.clip = clip;
+            audioSource.volume = unityVolume;
+            audioSource.spatialBlend = 1.0f;
+            audioSource.rolloffMode = AudioRolloffMode.Logarithmic;
+            audioSource.minDistance = 1f;
+            audioSource.maxDistance = maxDistance;
+            audioSource.spatialize = true;
+            audioSource.Play();
 
-        Destroy(tempAudioObj, clip.length);
+            Destroy(tempAudioObj, clip.length);
+        }
     }
 
     public void PlayBackgroundMusic(AudioClip clip, float volume = 60f)

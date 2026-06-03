@@ -25,7 +25,7 @@ public class Button : MonoBehaviour
             }
 
             transform.localPosition -= new Vector3(0, 0, 0.02f); 
-
+            SFXManager.Instance.PlaySound3D(SFXManager.Instance.buttonPressClip, transform.position, 100f, 15f, true);
             Invoke(nameof(ResetButton), resetDelay);
         }
     }
