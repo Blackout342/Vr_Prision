@@ -63150,10 +63150,12 @@ MonoBehaviour:
     colocarlas en el lugar correcto.\n\nUn prisionero anterior intent\xF3 escapar
     antes que t\xFA.\nNo lo logr\xF3, pero dej\xF3 pistas ocultas en la celda.\n\nObserva
     cada pared.\nRevisa cada objeto.\nEscucha todos los sonidos.\n\nAlgunas respuestas
-    no est\xE1n escritas.\nAlgunas pistas solo pueden o\xEDrse.\n\nPero recuerda:\nel
-    c\xF3digo de la caja fuerte no se encuentra en esta habitaci\xF3n.\n\nSigue las
-    se\xF1ales en el orden correcto.\nSolo quien logre entender el mensaje oculto\npodr\xE1
-    activar la cerradura y escapar de esta prisi\xF3n."
+    no est\xE1n escritas.\nAlgunas pistas solo pueden o\xEDrse.\n\nSi escuchas con
+    atenci\xF3n,\ntal vez la alcantarilla tenga algo que decirte.\nAc\xE9rcate a
+    ella y presta atenci\xF3n.\n\nPero recuerda:\nel c\xF3digo de la caja fuerte
+    no se encuentra en esta habitaci\xF3n.\n\nSigue las se\xF1ales en el orden correcto.\nSolo
+    quien logre entender el mensaje oculto\npodr\xE1 activar la cerradura y escapar
+    de esta prisi\xF3n."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
   m_sharedMaterial: {fileID: 2164040, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
@@ -63180,8 +63182,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 2.8
-  m_fontSizeBase: 2.8
+  m_fontSize: 2.4
+  m_fontSizeBase: 2.4
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
