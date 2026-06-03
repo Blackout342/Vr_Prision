@@ -5,7 +5,7 @@ public class BaseDoor : MonoBehaviour
     public Transform doorMesh;
     public float openAngle = 90f;
     public float openSpeed = 3f;
-    public bool playSound = true;
+    public bool playSound = true, congrats = false;
 
     private Quaternion closedRotation, openRotation;
     private bool isOpening = false;
@@ -37,5 +37,7 @@ public class BaseDoor : MonoBehaviour
         isOpening = true;
         if(playSound)
             SFXManager.Instance.PlaySound3D(SFXManager.Instance.doorOpenClip, transform.position);
+        if(congrats)
+            SFXManager.Instance.PlaySound3D(SFXManager.Instance.congrats, transform.position);
     }
 }

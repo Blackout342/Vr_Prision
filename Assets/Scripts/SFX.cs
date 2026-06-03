@@ -3,7 +3,8 @@ using UnityEngine;
 public class SFXManager : MonoBehaviour
 {
     public static SFXManager Instance;
-    public AudioClip keySuccessClip, wrongKeyClip, buttonPressClip, doorOpenClip;
+    public AudioClip keySuccessClip, wrongKeyClip, buttonPressClip, doorOpenClip, backgroundMusicClip, clue, congrats;
+    public float globalMusicVolume = 70f;
     public AudioSource globalAudioSource;
     private AudioSource bgmAudioSource;
 
@@ -16,6 +17,8 @@ public class SFXManager : MonoBehaviour
         bgmAudioSource = gameObject.AddComponent<AudioSource>();
         bgmAudioSource.loop = true;
         bgmAudioSource.spatialBlend = 0.0f;
+
+        PlayBackgroundMusic(backgroundMusicClip, globalMusicVolume);
     }
 
     public void PlaySound3D(AudioClip clip, Vector3 position, float volume = 100f, float maxDistance = 15f)
