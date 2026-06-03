@@ -22,6 +22,10 @@ extern void BaseDoor__ctor_mB885C0419929977E655408546DC236A6E38DEF0B (void);
 extern void Button_OnTriggerEnter_mF6F253A31CF7C1196B15D66C384791D0E94FBBE3 (void);
 extern void Button_ResetButton_m497CF66CE08B6D7C96904F35392F72B32348850E (void);
 extern void Button__ctor_m6CC103D3CBE7ABCDC685DCC02F320D62DCC05D16 (void);
+extern void Clue_OnTriggerEnter_mADF6CEC8BC5205924016824B9C6D5FE5B29D8110 (void);
+extern void Clue_Start_m791F69179B0AA2360150E0E445F8B72A7087A3EC (void);
+extern void Clue_Update_m01FF27D5A4ECB758AFB1D657BB984603B7735F73 (void);
+extern void Clue__ctor_m887589A1A74E895BE675E61BA373E55C641618FC (void);
 extern void KeyItem__ctor_mD5FF1956C071A4E04AA085FC31BD843CBC08E30B (void);
 extern void KeyLockTrigger_OnTriggerEnter_m6FF12F8B614BC17DA94BEF3136466A4A9D2A34AC (void);
 extern void KeyLockTrigger__ctor_m5F81BF784ABDBAFD6AD77665408AA5E23D0D5E49 (void);
@@ -306,7 +310,7 @@ extern void U3CWarpTextU3Ed__8_MoveNext_mCE7A826C5E4854C2C509C77BD18F5A9B6D691B0
 extern void U3CWarpTextU3Ed__8_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mD80368E9B7E259311C03E406B75161ED6F7618E3 (void);
 extern void U3CWarpTextU3Ed__8_System_Collections_IEnumerator_Reset_m07746C332D2D8CE5DEA59873C26F2FAD4B369B42 (void);
 extern void U3CWarpTextU3Ed__8_System_Collections_IEnumerator_get_Current_m71D7F84D9DEF63BEC6B44866515DDCF35B142A19 (void);
-static Il2CppMethodPointer s_methodPointers[299] = 
+static Il2CppMethodPointer s_methodPointers[303] = 
 {
 	MovementController_Update_mB72AA3FFD41BE01F39C18D80DA2C7D5D8D69F3E0,
 	MovementController__ctor_mBA50A088FED8B4A0F7727D69277B39BB0D385C26,
@@ -323,6 +327,10 @@ static Il2CppMethodPointer s_methodPointers[299] =
 	Button_OnTriggerEnter_mF6F253A31CF7C1196B15D66C384791D0E94FBBE3,
 	Button_ResetButton_m497CF66CE08B6D7C96904F35392F72B32348850E,
 	Button__ctor_m6CC103D3CBE7ABCDC685DCC02F320D62DCC05D16,
+	Clue_OnTriggerEnter_mADF6CEC8BC5205924016824B9C6D5FE5B29D8110,
+	Clue_Start_m791F69179B0AA2360150E0E445F8B72A7087A3EC,
+	Clue_Update_m01FF27D5A4ECB758AFB1D657BB984603B7735F73,
+	Clue__ctor_m887589A1A74E895BE675E61BA373E55C641618FC,
 	KeyItem__ctor_mD5FF1956C071A4E04AA085FC31BD843CBC08E30B,
 	KeyLockTrigger_OnTriggerEnter_m6FF12F8B614BC17DA94BEF3136466A4A9D2A34AC,
 	KeyLockTrigger__ctor_m5F81BF784ABDBAFD6AD77665408AA5E23D0D5E49,
@@ -608,7 +616,7 @@ static Il2CppMethodPointer s_methodPointers[299] =
 	U3CWarpTextU3Ed__8_System_Collections_IEnumerator_Reset_m07746C332D2D8CE5DEA59873C26F2FAD4B369B42,
 	U3CWarpTextU3Ed__8_System_Collections_IEnumerator_get_Current_m71D7F84D9DEF63BEC6B44866515DDCF35B142A19,
 };
-static const int32_t s_InvokerIndices[299] = 
+static const int32_t s_InvokerIndices[303] = 
 {
 	14905,
 	14905,
@@ -623,6 +631,10 @@ static const int32_t s_InvokerIndices[299] =
 	14905,
 	14905,
 	11296,
+	14905,
+	14905,
+	11296,
+	14905,
 	14905,
 	14905,
 	14905,
@@ -914,7 +926,7 @@ IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	299,
+	303,
 	s_methodPointers,
 	0,
 	NULL,
