@@ -1074,8 +1074,8 @@ Transform:
   m_GameObject: {fileID: 195483318}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.80140007, y: -0.545, z: -0.39100033}
-  m_LocalScale: {x: 0.04302187, y: 0.047588132, z: 0.022994505}
+  m_LocalPosition: {x: 0.272, y: -0.705, z: -1.619}
+  m_LocalScale: {x: 0.07696182, y: 0.06720396, z: 0.022994505}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1995174664}
@@ -1225,7 +1225,7 @@ Transform:
   m_GameObject: {fileID: 201019923}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0.69349843, z: -0, w: 0.7204582}
-  m_LocalPosition: {x: -2.782, y: 2.24, z: -1.401}
+  m_LocalPosition: {x: -1.65039, y: 0.46738005, z: -0.28611004}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1233,7 +1233,7 @@ Transform:
   - {fileID: 883319233}
   - {fileID: 736415837}
   - {fileID: 1213808074}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1064676241}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &272682934
 PrefabInstance:
@@ -2704,8 +2704,8 @@ Transform:
   m_GameObject: {fileID: 529504804}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.59970003, y: -0.545, z: -0.39100033}
-  m_LocalScale: {x: 0.04302187, y: 0.047588132, z: 0.022994505}
+  m_LocalPosition: {x: 0.581, y: -0.705, z: -1.615}
+  m_LocalScale: {x: 0.07696182, y: 0.06720396, z: 0.022994505}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1995174664}
@@ -3359,8 +3359,8 @@ Transform:
   m_GameObject: {fileID: 622645178}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.712, y: -0.545, z: -0.3910003}
-  m_LocalScale: {x: 0.04302187, y: 0.047588132, z: 0.022994505}
+  m_LocalPosition: {x: 0.431, y: -0.705, z: -1.616}
+  m_LocalScale: {x: 0.07696182, y: 0.06720396, z: 0.022994505}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1995174664}
@@ -3453,7 +3453,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 2ded0400c68514846829569521212a35, type: 2}
+  - {fileID: 2100000, guid: 08e4a9bb6ea2146a0981fefd003d2060, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -4336,7 +4336,6 @@ GameObject:
   - component: {fileID: 736415842}
   - component: {fileID: 736415841}
   - component: {fileID: 736415840}
-  - component: {fileID: 736415839}
   - component: {fileID: 736415838}
   m_Layer: 0
   m_Name: Button3
@@ -4354,8 +4353,8 @@ Transform:
   m_GameObject: {fileID: 736415836}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.712, y: -0.545, z: -0.3910003}
-  m_LocalScale: {x: 0.04302187, y: 0.047588132, z: 0.022994505}
+  m_LocalPosition: {x: 0.431, y: -0.749, z: -1.616}
+  m_LocalScale: {x: 0.07696182, y: 0.06720396, z: 0.022994505}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 201019924}
@@ -4387,21 +4386,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &736415839
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 736415836}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 190f16333171a934696826a5d5495485, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Button
-  buttonID: 3
-  resetDelay: 0.5
-  sequenceSystem: {fileID: 0}
 --- !u!65 &736415840
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5009,7 +4993,6 @@ GameObject:
   - component: {fileID: 825987891}
   - component: {fileID: 825987890}
   - component: {fileID: 825987889}
-  - component: {fileID: 825987888}
   - component: {fileID: 825987887}
   m_Layer: 0
   m_Name: Button4
@@ -5027,8 +5010,8 @@ Transform:
   m_GameObject: {fileID: 825987885}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.80140007, y: -0.545, z: -0.39100033}
-  m_LocalScale: {x: 0.04302187, y: 0.047588132, z: 0.022994505}
+  m_LocalPosition: {x: 0.272, y: -1.084, z: -1.619}
+  m_LocalScale: {x: 0.07696182, y: 0.06720396, z: 0.022994505}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1353803809}
@@ -5060,21 +5043,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &825987888
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 825987885}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 190f16333171a934696826a5d5495485, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Button
-  buttonID: 4
-  resetDelay: 0.5
-  sequenceSystem: {fileID: 0}
 --- !u!65 &825987889
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5121,7 +5089,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 2ded0400c68514846829569521212a35, type: 2}
+  - {fileID: 2100000, guid: 08e4a9bb6ea2146a0981fefd003d2060, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -5610,7 +5578,6 @@ GameObject:
   - component: {fileID: 883319238}
   - component: {fileID: 883319237}
   - component: {fileID: 883319236}
-  - component: {fileID: 883319235}
   - component: {fileID: 883319234}
   m_Layer: 0
   m_Name: Button2
@@ -5628,8 +5595,8 @@ Transform:
   m_GameObject: {fileID: 883319232}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.59970003, y: -0.545, z: -0.39100033}
-  m_LocalScale: {x: 0.04302187, y: 0.047588132, z: 0.022994505}
+  m_LocalPosition: {x: 0.581, y: -0.749, z: -1.615}
+  m_LocalScale: {x: 0.07696182, y: 0.06720396, z: 0.022994505}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 201019924}
@@ -5661,21 +5628,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &883319235
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 883319232}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 190f16333171a934696826a5d5495485, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Button
-  buttonID: 2
-  resetDelay: 0.5
-  sequenceSystem: {fileID: 0}
 --- !u!65 &883319236
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5722,7 +5674,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 2ded0400c68514846829569521212a35, type: 2}
+  - {fileID: 2100000, guid: 08e4a9bb6ea2146a0981fefd003d2060, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -6072,8 +6024,8 @@ Transform:
   m_GameObject: {fileID: 919941401}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.52040005, y: -0.545, z: -0.39100033}
-  m_LocalScale: {x: 0.04302187, y: 0.047588132, z: 0.022994505}
+  m_LocalPosition: {x: 0.722, y: -0.705, z: -1.613}
+  m_LocalScale: {x: 0.07696182, y: 0.06720396, z: 0.022994505}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1995174664}
@@ -6210,7 +6162,6 @@ GameObject:
   - component: {fileID: 920765854}
   - component: {fileID: 920765853}
   - component: {fileID: 920765852}
-  - component: {fileID: 920765851}
   - component: {fileID: 920765850}
   m_Layer: 0
   m_Name: Button3
@@ -6228,8 +6179,8 @@ Transform:
   m_GameObject: {fileID: 920765848}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.712, y: -0.545, z: -0.3910003}
-  m_LocalScale: {x: 0.04302187, y: 0.047588132, z: 0.022994505}
+  m_LocalPosition: {x: 0.431, y: -1.084, z: -1.616}
+  m_LocalScale: {x: 0.07696182, y: 0.06720396, z: 0.022994505}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1353803809}
@@ -6261,21 +6212,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &920765851
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 920765848}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 190f16333171a934696826a5d5495485, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Button
-  buttonID: 3
-  resetDelay: 0.5
-  sequenceSystem: {fileID: 0}
 --- !u!65 &920765852
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6723,7 +6659,6 @@ GameObject:
   - component: {fileID: 1031677535}
   - component: {fileID: 1031677534}
   - component: {fileID: 1031677533}
-  - component: {fileID: 1031677532}
   - component: {fileID: 1031677531}
   m_Layer: 0
   m_Name: Button1
@@ -6741,8 +6676,8 @@ Transform:
   m_GameObject: {fileID: 1031677529}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.52040005, y: -0.545, z: -0.39100033}
-  m_LocalScale: {x: 0.04302187, y: 0.047588132, z: 0.022994505}
+  m_LocalPosition: {x: 0.722, y: -1.084, z: -1.613}
+  m_LocalScale: {x: 0.07696182, y: 0.06720396, z: 0.022994505}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1353803809}
@@ -6774,21 +6709,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &1031677532
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1031677529}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 190f16333171a934696826a5d5495485, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Button
-  buttonID: 1
-  resetDelay: 0.5
-  sequenceSystem: {fileID: 0}
 --- !u!65 &1031677533
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7140,6 +7060,41 @@ MeshRenderer:
   m_SortingOrder: 0
   m_MaskInteraction: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!1 &1064676240
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1064676241}
+  m_Layer: 0
+  m_Name: PistasCaja
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1064676241
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1064676240}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.13161, y: 1.77262, z: -1.11489}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1353803809}
+  - {fileID: 1688864899}
+  - {fileID: 201019924}
+  - {fileID: 1995174664}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1075648258
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8320,7 +8275,6 @@ GameObject:
   - component: {fileID: 1213808079}
   - component: {fileID: 1213808078}
   - component: {fileID: 1213808077}
-  - component: {fileID: 1213808076}
   - component: {fileID: 1213808075}
   m_Layer: 0
   m_Name: Button4
@@ -8338,8 +8292,8 @@ Transform:
   m_GameObject: {fileID: 1213808073}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.80140007, y: -0.545, z: -0.39100033}
-  m_LocalScale: {x: 0.04302187, y: 0.047588132, z: 0.022994505}
+  m_LocalPosition: {x: 0.272, y: -0.749, z: -1.619}
+  m_LocalScale: {x: 0.07696182, y: 0.06720396, z: 0.022994505}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 201019924}
@@ -8371,21 +8325,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &1213808076
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1213808073}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 190f16333171a934696826a5d5495485, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Button
-  buttonID: 4
-  resetDelay: 0.5
-  sequenceSystem: {fileID: 0}
 --- !u!65 &1213808077
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9273,7 +9212,7 @@ Transform:
   m_GameObject: {fileID: 1353803808}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0.69349843, z: -0, w: 0.7204582}
-  m_LocalPosition: {x: -2.782, y: 2.948, z: -1.401}
+  m_LocalPosition: {x: -1.65039, y: 1.17538, z: -0.28611004}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -9281,7 +9220,7 @@ Transform:
   - {fileID: 2022901713}
   - {fileID: 920765849}
   - {fileID: 825987886}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1064676241}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1375737368 stripped
 GameObject:
@@ -10066,7 +10005,6 @@ GameObject:
   - component: {fileID: 1503651396}
   - component: {fileID: 1503651395}
   - component: {fileID: 1503651394}
-  - component: {fileID: 1503651393}
   - component: {fileID: 1503651392}
   m_Layer: 0
   m_Name: Button1
@@ -10084,8 +10022,8 @@ Transform:
   m_GameObject: {fileID: 1503651390}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.52040005, y: -0.545, z: -0.39100033}
-  m_LocalScale: {x: 0.04302187, y: 0.047588132, z: 0.022994505}
+  m_LocalPosition: {x: 0.722, y: -0.83, z: -1.613}
+  m_LocalScale: {x: 0.07696182, y: 0.06720396, z: 0.022994505}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1688864899}
@@ -10117,21 +10055,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &1503651393
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1503651390}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 190f16333171a934696826a5d5495485, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Button
-  buttonID: 1
-  resetDelay: 0.5
-  sequenceSystem: {fileID: 0}
 --- !u!65 &1503651394
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10178,7 +10101,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 2ded0400c68514846829569521212a35, type: 2}
+  - {fileID: 2100000, guid: 08e4a9bb6ea2146a0981fefd003d2060, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -11478,7 +11401,7 @@ Transform:
   m_GameObject: {fileID: 1688864898}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0.69349843, z: -0, w: 0.7204582}
-  m_LocalPosition: {x: -2.782, y: 2.527, z: -1.401}
+  m_LocalPosition: {x: -1.65039, y: 0.75438, z: -0.28611004}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -11486,7 +11409,7 @@ Transform:
   - {fileID: 1833245965}
   - {fileID: 1852737267}
   - {fileID: 1765888636}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1064676241}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1697966692
 PrefabInstance:
@@ -11592,7 +11515,6 @@ GameObject:
   - component: {fileID: 1704777363}
   - component: {fileID: 1704777362}
   - component: {fileID: 1704777361}
-  - component: {fileID: 1704777360}
   - component: {fileID: 1704777359}
   m_Layer: 0
   m_Name: Button1
@@ -11610,8 +11532,8 @@ Transform:
   m_GameObject: {fileID: 1704777357}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.52040005, y: -0.545, z: -0.39100033}
-  m_LocalScale: {x: 0.04302187, y: 0.047588132, z: 0.022994505}
+  m_LocalPosition: {x: 0.722, y: -0.749, z: -1.613}
+  m_LocalScale: {x: 0.07696182, y: 0.06720396, z: 0.022994505}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 201019924}
@@ -11643,21 +11565,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &1704777360
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1704777357}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 190f16333171a934696826a5d5495485, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Button
-  buttonID: 1
-  resetDelay: 0.5
-  sequenceSystem: {fileID: 0}
 --- !u!65 &1704777361
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12323,7 +12230,6 @@ GameObject:
   - component: {fileID: 1765888641}
   - component: {fileID: 1765888640}
   - component: {fileID: 1765888639}
-  - component: {fileID: 1765888638}
   - component: {fileID: 1765888637}
   m_Layer: 0
   m_Name: Button4
@@ -12341,8 +12247,8 @@ Transform:
   m_GameObject: {fileID: 1765888635}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.80140007, y: -0.545, z: -0.39100033}
-  m_LocalScale: {x: 0.04302187, y: 0.047588132, z: 0.022994505}
+  m_LocalPosition: {x: 0.272, y: -0.83, z: -1.619}
+  m_LocalScale: {x: 0.07696182, y: 0.06720396, z: 0.022994505}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1688864899}
@@ -12374,21 +12280,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &1765888638
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1765888635}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 190f16333171a934696826a5d5495485, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Button
-  buttonID: 4
-  resetDelay: 0.5
-  sequenceSystem: {fileID: 0}
 --- !u!65 &1765888639
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12623,7 +12514,6 @@ GameObject:
   - component: {fileID: 1833245970}
   - component: {fileID: 1833245969}
   - component: {fileID: 1833245968}
-  - component: {fileID: 1833245967}
   - component: {fileID: 1833245966}
   m_Layer: 0
   m_Name: Button2
@@ -12641,8 +12531,8 @@ Transform:
   m_GameObject: {fileID: 1833245964}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.59970003, y: -0.545, z: -0.39100033}
-  m_LocalScale: {x: 0.04302187, y: 0.047588132, z: 0.022994505}
+  m_LocalPosition: {x: 0.581, y: -0.83, z: -1.615}
+  m_LocalScale: {x: 0.07696182, y: 0.06720396, z: 0.022994505}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1688864899}
@@ -12674,21 +12564,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &1833245967
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1833245964}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 190f16333171a934696826a5d5495485, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Button
-  buttonID: 2
-  resetDelay: 0.5
-  sequenceSystem: {fileID: 0}
 --- !u!65 &1833245968
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12779,7 +12654,6 @@ GameObject:
   - component: {fileID: 1852737272}
   - component: {fileID: 1852737271}
   - component: {fileID: 1852737270}
-  - component: {fileID: 1852737269}
   - component: {fileID: 1852737268}
   m_Layer: 0
   m_Name: Button3
@@ -12797,8 +12671,8 @@ Transform:
   m_GameObject: {fileID: 1852737266}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.712, y: -0.545, z: -0.3910003}
-  m_LocalScale: {x: 0.04302187, y: 0.047588132, z: 0.022994505}
+  m_LocalPosition: {x: 0.431, y: -0.83, z: -1.616}
+  m_LocalScale: {x: 0.07696182, y: 0.06720396, z: 0.022994505}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1688864899}
@@ -12830,21 +12704,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &1852737269
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1852737266}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 190f16333171a934696826a5d5495485, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Button
-  buttonID: 3
-  resetDelay: 0.5
-  sequenceSystem: {fileID: 0}
 --- !u!65 &1852737270
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -13602,7 +13461,7 @@ Transform:
   m_GameObject: {fileID: 1995174663}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0.69349843, z: -0, w: 0.7204582}
-  m_LocalPosition: {x: -2.782, y: 1.982, z: -1.401}
+  m_LocalPosition: {x: -1.65039, y: 0.20938003, z: -0.28611004}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -13610,7 +13469,7 @@ Transform:
   - {fileID: 529504805}
   - {fileID: 622645179}
   - {fileID: 195483319}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1064676241}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2022901712
 GameObject:
@@ -13624,7 +13483,6 @@ GameObject:
   - component: {fileID: 2022901718}
   - component: {fileID: 2022901717}
   - component: {fileID: 2022901716}
-  - component: {fileID: 2022901715}
   - component: {fileID: 2022901714}
   m_Layer: 0
   m_Name: Button2
@@ -13642,8 +13500,8 @@ Transform:
   m_GameObject: {fileID: 2022901712}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.59970003, y: -0.545, z: -0.39100033}
-  m_LocalScale: {x: 0.04302187, y: 0.047588132, z: 0.022994505}
+  m_LocalPosition: {x: 0.581, y: -1.084, z: -1.615}
+  m_LocalScale: {x: 0.07696182, y: 0.06720396, z: 0.022994505}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1353803809}
@@ -13675,21 +13533,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &2022901715
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2022901712}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 190f16333171a934696826a5d5495485, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Button
-  buttonID: 2
-  resetDelay: 0.5
-  sequenceSystem: {fileID: 0}
 --- !u!65 &2022901716
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -14712,7 +14555,4 @@ SceneRoots:
   - {fileID: 699878992}
   - {fileID: 1964602104}
   - {fileID: 3877064440050695136}
-  - {fileID: 1353803809}
-  - {fileID: 1688864899}
-  - {fileID: 201019924}
-  - {fileID: 1995174664}
+  - {fileID: 1064676241}
