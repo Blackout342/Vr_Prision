@@ -7,7 +7,7 @@ public class Clue : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        SFXManager.Instance.PlaySound3D(SFXManager.Instance.clue, transform.position);
+        SFXManager.Instance.globalAudioSource.PlayOneShot(SFXManager.Instance.clue, 0.8f);
     }
 
     void Start()
