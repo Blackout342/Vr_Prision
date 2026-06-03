@@ -7,8 +7,6 @@ public class SequenceTrigger : MonoBehaviour
     public List<int> correctSequence = new List<int> { 1, 2, 3, 4 };
     private List<int> currentInput = new List<int>();
 
-    [Header("Recompensa de la Caja Fuerte")]
-    // Arrastra aquí la tarjeta/llave que pusiste dentro de la caja
     public GameObject rewardKeyObject; 
 
     void Start()

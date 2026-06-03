@@ -7291,7 +7291,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SequenceTrigger_Start_mA5F3724103E439C52
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:/Users/Jose/Documents/VR_Jose/Assets/Scripts/SequenceTrigger.cs:16>
+		//<source_info:/Users/Jose/Documents/VR_Jose/Assets/Scripts/SequenceTrigger.cs:14>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->___rewardKeyObject;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -7302,7 +7302,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SequenceTrigger_Start_mA5F3724103E439C52
 		}
 	}
 	{
-		//<source_info:/Users/Jose/Documents/VR_Jose/Assets/Scripts/SequenceTrigger.cs:18>
+		//<source_info:/Users/Jose/Documents/VR_Jose/Assets/Scripts/SequenceTrigger.cs:16>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_2 = __this->___rewardKeyObject;
 		NullCheck(L_2);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_2, (bool)0, NULL);
@@ -7310,7 +7310,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SequenceTrigger_Start_mA5F3724103E439C52
 
 IL_001a:
 	{
-		//<source_info:/Users/Jose/Documents/VR_Jose/Assets/Scripts/SequenceTrigger.cs:20>
+		//<source_info:/Users/Jose/Documents/VR_Jose/Assets/Scripts/SequenceTrigger.cs:18>
 		return;
 	}
 }
@@ -7328,12 +7328,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SequenceTrigger_PressButton_mD6938ADEF90
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:/Users/Jose/Documents/VR_Jose/Assets/Scripts/SequenceTrigger.cs:24>
+		//<source_info:/Users/Jose/Documents/VR_Jose/Assets/Scripts/SequenceTrigger.cs:22>
 		List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_0 = __this->___currentInput;
 		int32_t L_1 = ___0_buttonID;
 		NullCheck(L_0);
 		List_1_Add_m0248A96C5334E9A93E6994B7780478BCD994EA3D_inline(L_0, L_1, List_1_Add_m0248A96C5334E9A93E6994B7780478BCD994EA3D_RuntimeMethod_var);
-		//<source_info:/Users/Jose/Documents/VR_Jose/Assets/Scripts/SequenceTrigger.cs:25>
+		//<source_info:/Users/Jose/Documents/VR_Jose/Assets/Scripts/SequenceTrigger.cs:23>
 		int32_t L_2 = ___0_buttonID;
 		int32_t L_3 = L_2;
 		RuntimeObject* L_4 = Box(il2cpp_defaults.int32_class, &L_3);
@@ -7353,7 +7353,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SequenceTrigger_PressButton_mD6938ADEF90
 		L_13 = String_Format_mA0534D6E2AE4D67A6BD8D45B3321323930EB930C(_stringLiteralB6434331D0152C95961CE14A24E80FFA92754BBC, L_4, L_8, L_12, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_13, NULL);
-		//<source_info:/Users/Jose/Documents/VR_Jose/Assets/Scripts/SequenceTrigger.cs:26>
+		//<source_info:/Users/Jose/Documents/VR_Jose/Assets/Scripts/SequenceTrigger.cs:24>
 		SFXManager_tAF63690A185E44F2801326FED0FD58F790B89C4E* L_14 = ((SFXManager_tAF63690A185E44F2801326FED0FD58F790B89C4E_StaticFields*)il2cpp_codegen_static_fields_for(SFXManager_tAF63690A185E44F2801326FED0FD58F790B89C4E_il2cpp_TypeInfo_var))->___Instance;
 		SFXManager_tAF63690A185E44F2801326FED0FD58F790B89C4E* L_15 = ((SFXManager_tAF63690A185E44F2801326FED0FD58F790B89C4E_StaticFields*)il2cpp_codegen_static_fields_for(SFXManager_tAF63690A185E44F2801326FED0FD58F790B89C4E_il2cpp_TypeInfo_var))->___Instance;
 		NullCheck(L_15);
@@ -7365,7 +7365,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SequenceTrigger_PressButton_mD6938ADEF90
 		L_18 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_17, NULL);
 		NullCheck(L_14);
 		SFXManager_PlaySound3D_m817509584935A18963F58213F48AF9F8AB22F076(L_14, L_16, L_18, (0.600000024f), (15.0f), NULL);
-		//<source_info:/Users/Jose/Documents/VR_Jose/Assets/Scripts/SequenceTrigger.cs:28>
+		//<source_info:/Users/Jose/Documents/VR_Jose/Assets/Scripts/SequenceTrigger.cs:26>
 		List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_19 = __this->___currentInput;
 		NullCheck(L_19);
 		int32_t L_20;
@@ -7380,13 +7380,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SequenceTrigger_PressButton_mD6938ADEF90
 		}
 	}
 	{
-		//<source_info:/Users/Jose/Documents/VR_Jose/Assets/Scripts/SequenceTrigger.cs:30>
+		//<source_info:/Users/Jose/Documents/VR_Jose/Assets/Scripts/SequenceTrigger.cs:28>
 		SequenceTrigger_CheckSequence_m219380289210FEB5935BD74DFADBC9A83CDCB7F9(__this, NULL);
 	}
 
 IL_0088:
 	{
-		//<source_info:/Users/Jose/Documents/VR_Jose/Assets/Scripts/SequenceTrigger.cs:32>
+		//<source_info:/Users/Jose/Documents/VR_Jose/Assets/Scripts/SequenceTrigger.cs:30>
 		return;
 	}
 }
@@ -7409,16 +7409,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SequenceTrigger_CheckSequence_m219380289
 	bool V_0 = false;
 	int32_t V_1 = 0;
 	{
-		//<source_info:/Users/Jose/Documents/VR_Jose/Assets/Scripts/SequenceTrigger.cs:36>
+		//<source_info:/Users/Jose/Documents/VR_Jose/Assets/Scripts/SequenceTrigger.cs:34>
 		V_0 = (bool)1;
-		//<source_info:/Users/Jose/Documents/VR_Jose/Assets/Scripts/SequenceTrigger.cs:38>
+		//<source_info:/Users/Jose/Documents/VR_Jose/Assets/Scripts/SequenceTrigger.cs:36>
 		V_1 = 0;
 		goto IL_0028;
 	}
 
 IL_0006:
 	{
-		//<source_info:/Users/Jose/Documents/VR_Jose/Assets/Scripts/SequenceTrigger.cs:40>
+		//<source_info:/Users/Jose/Documents/VR_Jose/Assets/Scripts/SequenceTrigger.cs:38>
 		List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_0 = __this->___currentInput;
 		int32_t L_1 = V_1;
 		NullCheck(L_0);
@@ -7435,22 +7435,22 @@ IL_0006:
 		}
 	}
 	{
-		//<source_info:/Users/Jose/Documents/VR_Jose/Assets/Scripts/SequenceTrigger.cs:42>
+		//<source_info:/Users/Jose/Documents/VR_Jose/Assets/Scripts/SequenceTrigger.cs:40>
 		V_0 = (bool)0;
-		//<source_info:/Users/Jose/Documents/VR_Jose/Assets/Scripts/SequenceTrigger.cs:43>
+		//<source_info:/Users/Jose/Documents/VR_Jose/Assets/Scripts/SequenceTrigger.cs:41>
 		goto IL_0036;
 	}
 
 IL_0024:
 	{
-		//<source_info:/Users/Jose/Documents/VR_Jose/Assets/Scripts/SequenceTrigger.cs:38>
+		//<source_info:/Users/Jose/Documents/VR_Jose/Assets/Scripts/SequenceTrigger.cs:36>
 		int32_t L_6 = V_1;
 		V_1 = ((int32_t)il2cpp_codegen_add(L_6, 1));
 	}
 
 IL_0028:
 	{
-		//<source_info:/Users/Jose/Documents/VR_Jose/Assets/Scripts/SequenceTrigger.cs:38>
+		//<source_info:/Users/Jose/Documents/VR_Jose/Assets/Scripts/SequenceTrigger.cs:36>
 		int32_t L_7 = V_1;
 		List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_8 = __this->___correctSequence;
 		NullCheck(L_8);
@@ -7464,7 +7464,7 @@ IL_0028:
 
 IL_0036:
 	{
-		//<source_info:/Users/Jose/Documents/VR_Jose/Assets/Scripts/SequenceTrigger.cs:47>
+		//<source_info:/Users/Jose/Documents/VR_Jose/Assets/Scripts/SequenceTrigger.cs:45>
 		bool L_10 = V_0;
 		if (!L_10)
 		{
@@ -7472,10 +7472,10 @@ IL_0036:
 		}
 	}
 	{
-		//<source_info:/Users/Jose/Documents/VR_Jose/Assets/Scripts/SequenceTrigger.cs:49>
+		//<source_info:/Users/Jose/Documents/VR_Jose/Assets/Scripts/SequenceTrigger.cs:47>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteral3A830BE4CB1B66B7D745369A874CC4C2DF4E24E2, NULL);
-		//<source_info:/Users/Jose/Documents/VR_Jose/Assets/Scripts/SequenceTrigger.cs:51>
+		//<source_info:/Users/Jose/Documents/VR_Jose/Assets/Scripts/SequenceTrigger.cs:49>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_11 = __this->___rewardKeyObject;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_12;
@@ -7486,7 +7486,7 @@ IL_0036:
 		}
 	}
 	{
-		//<source_info:/Users/Jose/Documents/VR_Jose/Assets/Scripts/SequenceTrigger.cs:53>
+		//<source_info:/Users/Jose/Documents/VR_Jose/Assets/Scripts/SequenceTrigger.cs:51>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_13 = __this->___rewardKeyObject;
 		NullCheck(L_13);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_13, (bool)1, NULL);
@@ -7494,7 +7494,7 @@ IL_0036:
 
 IL_005d:
 	{
-		//<source_info:/Users/Jose/Documents/VR_Jose/Assets/Scripts/SequenceTrigger.cs:56>
+		//<source_info:/Users/Jose/Documents/VR_Jose/Assets/Scripts/SequenceTrigger.cs:54>
 		BaseDoor_t1795F03E67074392A6983975163E2CACCB07A256* L_14 = __this->___doorController;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_15;
@@ -7505,7 +7505,7 @@ IL_005d:
 		}
 	}
 	{
-		//<source_info:/Users/Jose/Documents/VR_Jose/Assets/Scripts/SequenceTrigger.cs:58>
+		//<source_info:/Users/Jose/Documents/VR_Jose/Assets/Scripts/SequenceTrigger.cs:56>
 		SFXManager_tAF63690A185E44F2801326FED0FD58F790B89C4E* L_16 = ((SFXManager_tAF63690A185E44F2801326FED0FD58F790B89C4E_StaticFields*)il2cpp_codegen_static_fields_for(SFXManager_tAF63690A185E44F2801326FED0FD58F790B89C4E_il2cpp_TypeInfo_var))->___Instance;
 		SFXManager_tAF63690A185E44F2801326FED0FD58F790B89C4E* L_17 = ((SFXManager_tAF63690A185E44F2801326FED0FD58F790B89C4E_StaticFields*)il2cpp_codegen_static_fields_for(SFXManager_tAF63690A185E44F2801326FED0FD58F790B89C4E_il2cpp_TypeInfo_var))->___Instance;
 		NullCheck(L_17);
@@ -7517,7 +7517,7 @@ IL_005d:
 		L_20 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_19, NULL);
 		NullCheck(L_16);
 		SFXManager_PlaySound3D_m817509584935A18963F58213F48AF9F8AB22F076(L_16, L_18, L_20, (100.0f), (15.0f), NULL);
-		//<source_info:/Users/Jose/Documents/VR_Jose/Assets/Scripts/SequenceTrigger.cs:59>
+		//<source_info:/Users/Jose/Documents/VR_Jose/Assets/Scripts/SequenceTrigger.cs:57>
 		BaseDoor_t1795F03E67074392A6983975163E2CACCB07A256* L_21 = __this->___doorController;
 		NullCheck(L_21);
 		BaseDoor_Open_mB32FD355867043F9E66AAA5488E4F8532113A9B1(L_21, NULL);
@@ -7526,7 +7526,7 @@ IL_005d:
 
 IL_00a0:
 	{
-		//<source_info:/Users/Jose/Documents/VR_Jose/Assets/Scripts/SequenceTrigger.cs:64>
+		//<source_info:/Users/Jose/Documents/VR_Jose/Assets/Scripts/SequenceTrigger.cs:62>
 		SFXManager_tAF63690A185E44F2801326FED0FD58F790B89C4E* L_22 = ((SFXManager_tAF63690A185E44F2801326FED0FD58F790B89C4E_StaticFields*)il2cpp_codegen_static_fields_for(SFXManager_tAF63690A185E44F2801326FED0FD58F790B89C4E_il2cpp_TypeInfo_var))->___Instance;
 		SFXManager_tAF63690A185E44F2801326FED0FD58F790B89C4E* L_23 = ((SFXManager_tAF63690A185E44F2801326FED0FD58F790B89C4E_StaticFields*)il2cpp_codegen_static_fields_for(SFXManager_tAF63690A185E44F2801326FED0FD58F790B89C4E_il2cpp_TypeInfo_var))->___Instance;
 		NullCheck(L_23);
@@ -7538,10 +7538,10 @@ IL_00a0:
 		L_26 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_25, NULL);
 		NullCheck(L_22);
 		SFXManager_PlaySound3D_m817509584935A18963F58213F48AF9F8AB22F076(L_22, L_24, L_26, (100.0f), (15.0f), NULL);
-		//<source_info:/Users/Jose/Documents/VR_Jose/Assets/Scripts/SequenceTrigger.cs:65>
+		//<source_info:/Users/Jose/Documents/VR_Jose/Assets/Scripts/SequenceTrigger.cs:63>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteral5E22559951E9D787C83297516381916C4E4337E9, NULL);
-		//<source_info:/Users/Jose/Documents/VR_Jose/Assets/Scripts/SequenceTrigger.cs:66>
+		//<source_info:/Users/Jose/Documents/VR_Jose/Assets/Scripts/SequenceTrigger.cs:64>
 		List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_27 = __this->___currentInput;
 		NullCheck(L_27);
 		List_1_Clear_mF6795DE5F49C1D0B91D6A0955F448B22970D67A9_inline(L_27, List_1_Clear_mF6795DE5F49C1D0B91D6A0955F448B22970D67A9_RuntimeMethod_var);
@@ -7549,7 +7549,7 @@ IL_00a0:
 
 IL_00de:
 	{
-		//<source_info:/Users/Jose/Documents/VR_Jose/Assets/Scripts/SequenceTrigger.cs:68>
+		//<source_info:/Users/Jose/Documents/VR_Jose/Assets/Scripts/SequenceTrigger.cs:66>
 		return;
 	}
 }

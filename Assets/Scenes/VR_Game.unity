@@ -3125,6 +3125,11 @@ MonoBehaviour:
   m_LimitAngularVelocity: 0
   m_MaxLinearVelocityDelta: 10
   m_MaxAngularVelocityDelta: 20
+--- !u!54 &557197620 stripped
+Rigidbody:
+  m_CorrespondingSourceObject: {fileID: 605327188068563596, guid: ca1ce5c8c52bd814f8d4c5e594286198, type: 3}
+  m_PrefabInstance: {fileID: 197732812843833995}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &579144514
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4889,11 +4894,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ca1ce5c8c52bd814f8d4c5e594286198, type: 3}
---- !u!54 &816466928 stripped
-Rigidbody:
-  m_CorrespondingSourceObject: {fileID: 605327188068563596, guid: ca1ce5c8c52bd814f8d4c5e594286198, type: 3}
-  m_PrefabInstance: {fileID: 816466927}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &818082312
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5711,11 +5711,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 883319232}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &902711078 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1819486648060621014, guid: ca1ce5c8c52bd814f8d4c5e594286198, type: 3}
-  m_PrefabInstance: {fileID: 197732812843833995}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &913602304
 GameObject:
   m_ObjectHideFlags: 0
@@ -9814,6 +9809,11 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 3347092349758675005, guid: 8a08a6f6cc3a982489dad9e423c0dec6, type: 3}
+--- !u!1 &1472956065 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 631207095143767152, guid: 0810f15247bf09840b6ad5de48a525b2, type: 3}
+  m_PrefabInstance: {fileID: 1527240551}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1481595520
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11156,7 +11156,7 @@ PrefabInstance:
     - target: {fileID: 4181131878455713425, guid: 29d70306e0e487b44857d49d102616fb, type: 3}
       propertyPath: rewardKeyObject
       value: 
-      objectReference: {fileID: 902711078}
+      objectReference: {fileID: 1472956065}
     - target: {fileID: 6290621853805053154, guid: 29d70306e0e487b44857d49d102616fb, type: 3}
       propertyPath: playSound
       value: 0
@@ -13738,7 +13738,7 @@ FixedJoint:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2064192485}
   serializedVersion: 1
-  m_ConnectedBody: {fileID: 816466928}
+  m_ConnectedBody: {fileID: 557197620}
   m_ConnectedArticulationBody: {fileID: 0}
   m_BreakForce: Infinity
   m_BreakTorque: Infinity
@@ -13930,7 +13930,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2064192485}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
